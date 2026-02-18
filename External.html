@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu</title>
+    <style>
+        body{
+            font-family: Arial;
+            margin:0;
+        }
+
+        header{
+            display:block;
+            background:grey;
+            color:black;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav{
+            background:darkgrey;
+                   }
+
+        nav a{
+            display:inline;
+            color:white;
+            padding:15px;
+        }
+
+        nav a:hover{
+            color:blue;
+            background:red;
+        }
+        .box{
+            display:inline-block;
+            width:30%;
+            background:pink;
+            margin:10px;
+            padding:20px;
+            text-align:center;
+        }
+
+         .left{
+            float:left;
+            width:50%;
+            background:green;
+            padding:20px;
+        }
+
+        .right{
+            float:right;
+            width:50%;
+            background:blue;
+            padding:20px;
+        }
+
+        .clear{
+            clear:both;
+            background:orange;
+            padding:20px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Navigation Menu Example</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <div class="box">Inline-Block Box 1</div>
+    <div class="box">Inline-Block Box 2</div>
+    <div class="box">Inline-Block Box 3</div>
+</section>
+
+<section>
+    <div class="left">Float Left Content</div>
+    <div class="right">Float Right Content</div>
+</section>
+
+<div class="clear">
+    This section uses <b>clear: both</b> to come below floats.
+</div>
+<br>
+<hr>
+</body>
+</html>
+
